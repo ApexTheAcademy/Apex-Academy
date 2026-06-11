@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apex Academy</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; }
+    header { background:#004aad; color:white; padding:20px; text-align:center; }
+    header img { height:80px; }
+    nav { background:#eee; padding:10px; text-align:center; }
+    nav a { margin:0 15px; text-decoration:none; color:#004aad; font-weight:bold; }
+    section { padding:20px; }
+    form { background:#fff; padding:20px; border:1px solid #ccc; max-width:400px; margin:auto; }
+    form input, form button { width:100%; padding:10px; margin:8px 0; }
+    form button { background:#004aad; color:white; border:none; cursor:pointer; }
+    footer { background:#004aad; color:white; text-align:center; padding:10px; }
+    .whatsapp-btn { display:inline-block; background:#25D366; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="apex-logo.png" alt="Apex Academy Logo">
+    <h1>Apex Kids & Junior Academy</h1>
+    <p>Where Learning Meets Perfection</p>
+  </header>
+  <nav>
+    <a href="#topics">Term 3 Topics</a>
+    <a href="#register">Register</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="topics">
+    <h2>Term 3 Topics</h2>
+    <ul>
+      <li>Financial Mathematics</li>
+      <li>Probability</li>
+      <li>Statistics</li>
+    </ul>
+  </section>
+  <section id="register">
+    <h2>Register for Free Classes</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <button type="submit">Submit Registration</button>
+    </form>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>WhatsApp: 083 773 1435</p>
+    <a class="whatsapp-btn" href="https://wa.me/27837731435" target="_blank">Chat on WhatsApp</a>
+  </section>
+  <footer>
+    <p>&copy; 2026 Apex Academy</p>
+  </footer>
+</body>
+</html>
